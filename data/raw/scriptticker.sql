@@ -5,4 +5,4 @@ CREATE TABLE test (
 
 INSERT INTO test VALUES
 (1, 'Aasritha'),
-(2, 'Rahul');
+(2, 'Analytics');
