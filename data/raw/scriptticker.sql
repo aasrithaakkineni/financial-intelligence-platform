@@ -1,8 +1,9 @@
-CREATE TABLE test (
+CREATE TABLE stocks (
     id INT,
-    name VARCHAR(100)
+    company VARCHAR(100)
 );
 
-INSERT INTO test VALUES
-(1, 'Aasritha'),
-(2, 'Analytics');
+INSERT INTO stocks VALUES
+(1, 'Apple'),
+(2, 'Tesla'),
+(3, 'Microsoft');
