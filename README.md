@@ -1,49 +1,56 @@
 # Financial Intelligence Platform
 
 ## Overview
-This project is a simple ETL pipeline built using Python.
+This project is a simple ETL (Extract, Transform, Load) pipeline built using Python.
 
-It reads SQL data from a `.sql` file, extracts records using Regex, converts them into a Pandas DataFrame, and exports the cleaned data into CSV format.
-
----
+The project reads data from a SQL file, extracts records, cleans the data, and exports the processed data into CSV format.
 
 ## Technologies Used
 - Python
 - Pandas
-- Regex
-- Git & GitHub
-
----
-
-## Features
-- Reads SQL script file
-- Extracts INSERT records
-- Converts data into structured table
-- Saves output as CSV file
-
----
+- SQL
+- GitHub
 
 ## Project Structure
 
 financial-intelligence-platform/
 │
 ├── data/
-│   ├── raw/
-│   └── cleaned/
+│ ├── raw/
+│ │ └── scriptticker.sql
+│ └── cleaned/
+│ ├── output.csv
+│ └── cleaned_output.csv
 │
 ├── etl/
-│   └── extract.py
+│ ├── extract.py
+│ └── transform.py
 │
-└── README.md
+├── README.md
+└── requirements.txt
 
----
+## Modules
+
+### Extract Module
+- Reads data from SQL file.
+- Extracts records using Python.
+
+### Transform Module
+- Removes duplicate records.
+- Handles missing values.
+- Cleans text fields.
+- Generates cleaned CSV output.
 
 ## Output
-The extracted data is saved in:
+The cleaned data is stored in:
 
-data/cleaned/output.csv
+data/cleaned/cleaned_output.csv
 
----
+## Future Improvements
+- Database integration
+- Automated ETL scheduling
+- Dashboard visualization
+- Advanced data validation
 
 ## Author
-Aasritha
+Aasritha Akkineni
