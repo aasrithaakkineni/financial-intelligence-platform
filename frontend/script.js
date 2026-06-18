@@ -10,6 +10,8 @@ window.onload = function () {
             <td>210</td>
             <td>Technology</td>
             <td>3T</td>
+            <td>95</td>
+            <td>Excellent</td>
         </tr>
 
         <tr>
@@ -18,6 +20,8 @@ window.onload = function () {
             <td>180</td>
             <td>Automobile</td>
             <td>800B</td>
+            <td>88</td>
+            <td>Good</td>
         </tr>
 
         <tr>
@@ -26,6 +30,8 @@ window.onload = function () {
             <td>450</td>
             <td>Technology</td>
             <td>3.2T</td>
+            <td>97</td>
+            <td>Excellent</td>
         </tr>
     `;
 };
