@@ -10,7 +10,9 @@ stocks = [
         "sector": "Technology",
         "market_cap": "3T",
         "health_score": 95,
-        "health_status": "Excellent"
+        "health_status": "Excellent",
+        "revenue": "394B",
+        "net_profit": "97B"
     },
     {
         "id": 2,
@@ -19,7 +21,9 @@ stocks = [
         "sector": "Automobile",
         "market_cap": "800B",
         "health_score": 88,
-        "health_status": "Good"
+        "health_status": "Good",
+        "revenue": "96B",
+        "net_profit": "15B"
     },
     {
         "id": 3,
@@ -28,7 +32,9 @@ stocks = [
         "sector": "Technology",
         "market_cap": "3.2T",
         "health_score": 97,
-        "health_status": "Excellent"
+        "health_status": "Excellent",
+        "revenue": "245B",
+        "net_profit": "88B"
     }
 ]
 
