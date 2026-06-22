@@ -41,3 +41,18 @@ window.onload = function () {
         </tr>
     `;
 };
+
+function searchCompany() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
+    let rows = document.querySelectorAll("#stockTable tr");
+
+    rows.forEach(row => {
+        let company = row.cells[1].innerText.toLowerCase();
+
+        if (company.includes(input)) {
+            row.style.display = "";
+        } else {
+            row.style.display = "none";
+        }
+    });
+}
